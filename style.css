@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("/img/img-fundo.jpeg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+img { 
+    height: 260px;
+    margin-bottom: 70px;
+}
+
+.container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    margin: 40px 0;
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 25px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+}
+
+button:hover {
+    opacity: 0.4;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:active {
+    opacity: 0.9;
+}
+
+#stone {
+    background-color: #00B4F5;
+}
+
+#paper {
+    background-color: #F5E600;
+}
+
+#scissors {
+    background-color: #F50037;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+.my-score span {
+    color: darkturquoise;
+}
+
+.machine-score span {
+    color: crimson;
+}
+
